@@ -1,0 +1,339 @@
+body{
+  background-image:url("https://www.livechat.com/live-chat-app__internet-software.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 800px; 
+  image-rendering: pixelated;
+  overflow:auto;
+}
+
+.Bg-image{
+  background: rgba(218, 221, 11, 0.384); 
+  backdrop-filter: blur(4px);
+  height: 100vh;
+	width: 100%;
+  overflow: auto;
+}
+.App {
+  background: rgba(218, 221, 11, 0.384); 
+  backdrop-filter: blur(4px);
+  display: flex;
+  overflow: auto;
+}
+
+.login{
+  position:absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fcff34;
+  opacity: 93%;
+  overflow:hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  margin-bottom: 300px;
+  padding-top: 400px;
+}
+.bottom{
+  background: rgba(218, 221, 11, 0.384);  
+  backdrop-filter: blur(4px);
+}
+
+.top{
+  text-align: right;
+  width: 600px;
+  display:inline-block;
+  border-bottom: rgba(0, 0, 0, 0.226) 1px solid;
+}
+
+.right{
+  text-align: center;
+  display:inline-block;
+  width:790px;
+  margin-left: 0px;
+  border-left: rgba(0, 0, 0, 0.226) 1px solid;
+  border-bottom: rgba(0, 0, 0, 0.226) 1px solid;
+}
+
+#contacts{
+white-space: pre;
+text-align: left;
+padding-left: 50px;
+}
+
+#main{
+text-align: center;
+color:rgba(12, 130, 241, 0.596);
+font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#mainR{
+  color: rgba(12, 130, 241, 0.596);
+}
+form{
+  text-align: center;
+}
+
+#name1,#number,#name2,#city,#country,#search{
+  margin:10px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgb(233, 223, 223);
+  border-color: rgb(185, 184, 184);
+
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+#sub{
+  margin-left:210px ;
+  margin-right:200px ;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: rgba(12, 130, 241, 0.596);
+  border-color: rgb(185, 184, 184);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#home,#about,#set{
+  color:white;
+}
+/*.App:hover .login {
+  bottom: 0;
+  height: 100%;
+}*/
+
+#search{
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 820px;
+}
+#mode-change{
+  display: inline-block;
+}
+
+#bg-change{
+  margin-left: 1100px;
+  display: inline-block;
+  margin-top:10px;
+}
+
+#bgn-change {
+  padding-left: -40px;
+    margin-left: 1135px;
+    float: inline-start;
+}
+
+#alert{
+  border-radius: 0%;
+}
+
+.about{
+  text-align: center;
+  padding:0px 150px;
+}
+
+#title{
+  margin-left: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#fcff34;
+}
+
+#first-letter{
+  display: inline;
+  color:rgba(12, 130, 241, 0.596)
+}
+
+nav{
+  height: 60px;
+}
+
+.about-m{
+  border: rgba(12, 130, 241, 0.596) 4px solid;
+  color:rgb(59, 56, 56);
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+}
+
+.space{
+  text-align: left;
+}
+
+.box{
+  border: rgb(77, 77, 77) 1px solid;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  height: 200px;
+}
+
+.e_body{
+  background-color:rgba(0, 0, 0, 0.226);
+  border-radius: 15px;
+  padding: 10px;
+  height:180px;
+  color: rgb(59, 56, 56);
+}
+
+.col-md-3{
+  padding-top: 25px;
+}
+
+.countryImg{
+  width:180px;
+  height: 130px;
+  border-radius: 15px;
+  padding-right: 20px;
+}
+
+#description{
+  display: inline-block;
+  color: rgb(59, 56, 56);
+  margin-left: 600px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#des{
+  color:rgb(59, 56, 56);
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-decoration:underline;
+}
+
+#sepCountry{
+margin-left: 800px;
+display: inline-block;
+width: 390px;
+height: 300px;
+border-radius: 15px;
+margin-top: 40px;
+}
+
+.spin{
+height:100px;
+width:120px;
+text-align: center;
+margin-left: 600px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  font-size: 20px;
+  font-family:  Vivaldi, cursive; 
+  color: rgb(59, 56, 56);
+  font-weight: bold;
+}
+
+#head{
+   text-align: left;
+   padding-left:45px;
+   color: rgba(12, 130, 241, 0.884);
+}
+
+#profile{
+  padding-left:45px;
+  border-radius: 5px;
+  width: 70%;
+}
+#whole{
+  display: flex;
+}
+#comment{
+flex: 50%;
+margin-left: 20px;
+height:350px;
+}
+
+#comment1{
+  height: 325px;
+  padding-top: 100px;
+}
+
+#formTitle{
+  color: rgb(59, 56, 56);
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 180px;
+  line-height: 0;
+}
+
+#readMore{
+  background-color:rgba(12, 130, 241, 0.596);
+}
+
+#delete{
+ margin-left: 520px;
+ padding: 10px 40px;
+ background-color: rgba(12, 130, 241, 0.596);
+ border-radius: 5px;
+ font-weight: bold;
+ color:white;
+ border-color: white;
+}
+
+#addComment{
+display: inline;
+margin-top: 55px;
+border-radius: 5px;
+padding: 10px 40px;
+padding-right: 194px;
+}
+
+#addC_btn{
+  display: inline;
+margin-top: 55px;
+border-radius: 5px;
+padding: 10px 40px;
+background-color: rgba(12, 130, 241, 0.596);
+  border-color: rgb(185, 184, 184);
+  color: white;
+  font-weight: bold;
+}
+
+#delete_C{
+  border:1px solid rgba(0, 0, 0, 0.226);
+  border-radius: 5px;
+  padding:6px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  width:80%;
+  background-color: rgba(0, 0, 0, 0.226);
+  font-weight: bold;
+}
+
+#cancel{
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgba(12, 130, 241, 0.596);
+  border-color: rgb(185, 184, 184);
+  color: white;
+  font-weight: bold;
+}
